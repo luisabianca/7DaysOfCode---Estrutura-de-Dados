@@ -6,10 +6,6 @@ class Node {
 }
 
 class LinkedList {
-    constructor() {
-        this.head = null;
-    }
-
     addValue(value) {
         const newNode = new Node(value);
 
